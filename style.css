@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.corpo {
+    background: linear-gradient(106deg, rgba(251,0,96,1) 0%, rgba(189,31,73,1) 47%, rgba(147,52,52,1) 100%);;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column; 
+}
+
+.quadrado {
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 6px;
+    filter: drop-shadow(0 0 40px
+          rgba(0, 0, 0, 0.5));
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0 0 1em 0;
+}
+
+.titulo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .myButton {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 30vh;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+  }
+
+  .myButtonYes {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 30vh;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+  }
+
+  .myButton:hover{
+    background-color:  rgba(172, 40, 65);
+    color: #fff;
+    transition: 0.5s;
+
+  }
+
+  .myButtonYes:hover{
+    background-color:  rgb(0, 209, 3);
+    color: #fff;
+    transition: 0.5s;
+
+  }
